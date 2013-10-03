@@ -15,9 +15,13 @@
     "url": "https://github.com/discgolfer1138/node-foscamhd/issues"
   },
   "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/test.js"
+  },
   "dependencies": {
     "lodash": "~2.2.0",
-    "request": "~2.27.0"
+    "request": "~2.27.0",
+    "prompt": "~0.2.11"
   },
   "devDependencies": {},
   "optionalDependencies": {},
