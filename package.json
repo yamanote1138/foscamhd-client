@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "Chad Francis",
+    "email": "discgolfer1138@gmail.com",
+    "url": "http://chadfrancis.com)"
+  },
+  "name": "node-foscamhd",
+  "description": "Remote control, view and config a Foscam/Tenvis IP camera",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/discgolfer1138/node-fosdcamhd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/discgolfer1138/node-foscamhd/issues"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "~2.2.0",
+    "request": "~2.27.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "foscam",
+    "camera",
+    "webcam",
+    "hd",
+    "9821"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/discgolfer1138/node-foscamhd/raw/master/LICENSE"
+  }
+}
