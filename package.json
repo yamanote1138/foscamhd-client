@@ -6,7 +6,7 @@
   },
   "name": "node-foscamhd",
   "description": "Remote control, view and config a Foscam/Tenvis IP camera",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/discgolfer1138/node-fosdcamhd.git"
