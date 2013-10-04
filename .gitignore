@@ -1,3 +1,4 @@
+.DS_Store
 lib-cov
 *.seed
 *.log
@@ -13,3 +14,5 @@ results
 
 npm-debug.log
 node_modules
+tests/config.json
+tests/test.html
