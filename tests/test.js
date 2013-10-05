@@ -34,8 +34,8 @@ prompt.get([ {name:'function', description:'choose function to execute', 'defaul
 				client.setIrState( result.state, displayOutput );
 			});
 			break;
-		case 'getStreamingUrl':
-			client.getStreamingUrl( displayOutput );
+		case 'getStreamUrl':
+			client.getStreamUrl( displayOutput );
 			break;
 		default:
 			throw 'unsupported function';
