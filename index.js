@@ -1,1 +1,1 @@
-module.exports = require('./lib/foscamhd');
+module.exports = require('./lib/foscamHdClient');
