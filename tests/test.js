@@ -1,5 +1,5 @@
 //requires
-var FoscamHdClient = require('../lib/foscamhd.js'),
+var FoscamHdClient = require('../lib/FoscamHdClient.js'),
 	nconf = require('nconf'),
 	prompt = require('prompt');
 

@@ -55,3 +55,22 @@ client.setIrState(state, function(err, resp){
 	// handle error and/or do stuff
 });
 ```
+
+## Testing
+
+create a file in the ./tests/ directory called config.json as below (obviously, substitute your values)
+```javascript
+{
+	"testcamera": {
+		"host":"http://domain.com",
+		"port":"1138",
+		"user":"admin",
+		"pass":"sup3rs3cr3t",
+	}
+}
+```
+
+run the following
+```bash
+npm test
+```
