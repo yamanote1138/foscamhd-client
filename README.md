@@ -1,7 +1,7 @@
 node-foscamhd
 =============
 
-simple client for Foscam HD cameras providing a few basic operations
+simple node client for Foscam HD cameras providing a few basic operations
 
 ## Usage
 
