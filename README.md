@@ -3,6 +3,8 @@ node-foscamhd
 
 simple node client for Foscam HD cameras providing a few basic operations
 
+[![NPM](https://nodei.co/npm/foscamhd-client.png)](https://nodei.co/npm/foscamhd-client/)
+
 ## Usage
 
 setup and configure
