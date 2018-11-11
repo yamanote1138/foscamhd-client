@@ -1,7 +1,7 @@
 {
   "author": {
     "name": "Chad Francis",
-    "email": "discgolfer1138@gmail.com",
+    "email": "yamanote1138@gmail.com",
     "url": "http://thechad.io)"
   },
   "name": "foscamhd-client",
@@ -9,18 +9,18 @@
   "version": "0.2.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/discgolfer1138/foscamhd-client.git"
+    "url": "git://github.com/yamanote1138/foscamhd-client.git"
   },
   "bugs": {
-    "url": "https://github.com/discgolfer1138/foscamhd-client/issues"
+    "url": "https://github.com/yamanote1138/foscamhd-client/issues"
   },
   "main": "index.js",
   "scripts": {
     "test": "node ./tests/test.js"
   },
   "dependencies": {
-    "lodash": "~2.2.0",
-    "request": "~2.27.0"
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "prompt": "~0.2.11",
