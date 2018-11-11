@@ -6,7 +6,7 @@
   },
   "name": "foscamhd-client",
   "description": "simple client for Foscam HD cameras providing a few basic operations",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/yamanote1138/foscamhd-client.git"
