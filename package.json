@@ -1,34 +1,28 @@
 {
   "author": {
-    "name": "Chad Francis",
     "email": "yamanote1138@gmail.com",
-    "url": "http://thechad.io)"
-  },
-  "name": "foscamhd-client",
-  "description": "simple client for Foscam HD cameras providing a few basic operations",
-  "version": "0.2.2",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/yamanote1138/foscamhd-client.git"
+    "name": "Chad Francis",
+    "url": "http://thechad.io"
   },
   "bugs": {
     "url": "https://github.com/yamanote1138/foscamhd-client/issues"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "node ./tests/test.js"
   },
   "dependencies": {
     "lodash": "^4.17.11",
     "request": "^2.88.0"
   },
+  "description": "simple node client for Foscam HD cameras providing a few basic operations",
   "devDependencies": {
-    "prompt": "~0.2.11",
-    "nconf": "~0.6.7"
+    "eslint": "^5.13.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "eslint-plugin-mocha": "^5.2.1",
+    "eslint-plugin-node": "^8.0.1",
+    "mocha": "^5.2.0",
+    "nconf": "^0.10.0",
+    "prompt": "^1.0.0"
   },
-  "optionalDependencies": {},
   "engines": {
-    "node": "*"
+    "node": ">=8.9.1"
   },
   "keywords": [
     "foscam",
@@ -39,6 +33,20 @@
   ],
   "license": {
     "type": "MIT",
-    "url": "https://github.com/discgolfer1138/foscamhd-client/raw/master/LICENSE"
-  }
+    "url": "https://github.com/yamanote1138/foscamhd-client/raw/master/LICENSE"
+  },
+  "main": "index.js",
+  "name": "foscamhd-client",
+  "private": false,
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yamanote1138/foscamhd-client.git"
+  },
+  "scripts": {
+    "lint": "./node_modules/eslint/bin/eslint.js --ignore-path .gitignore .",
+    "pretest": "./node_modules/eslint/bin/eslint.js --ignore-path .gitignore .",
+    "test": "./node_modules/mocha/bin/mocha -R spec ./tests/unit.test.js"
+  },
+  "version": "0.2.2"
 }

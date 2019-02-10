@@ -1,4 +1,4 @@
-node-foscamhd
+node-foscamhd [![Build Status](https://travis-ci.org/yamanote1138/node-foscamhd.png?branch=master)](https://travis-ci.org/yamanote1138/node-foscamhd)
 =============
 
 simple node client for Foscam HD cameras providing a few basic operations
@@ -9,13 +9,14 @@ simple node client for Foscam HD cameras providing a few basic operations
 
 setup and configure
 ```javascript
-var FoscamHdClient = require('foscamhd-client');
+const FoscamHdClient = require('foscamhd-client');
 
-var client = new FoscamHdClient({
-	host: 'http://domain.com',
-	port: 1138,
+let client = new FoscamHdClient({
+  protocol: 'http', // if not specified, defaults to 'http'
+	host: '192.168.1.123',
+	port: 1138, // if not specified, defaults to 80
 	user: 'admin',
-	pass: 'sup3rs3cr3t'
+	pass: 'p4$$w4rd'
 });
 ```
 
@@ -58,16 +59,16 @@ client.setIrState(state, function(err, resp){
 });
 ```
 
-## Testing
+## Functional Testing
 
 create a file in the ./tests/ directory called config.json as below (obviously, substitute your values)
 ```javascript
 {
 	"testcamera": {
-		"host":"http://domain.com",
-		"port":"1138",
+		"host":"192.168.1.123",
+		"port":1138,
 		"user":"admin",
-		"pass":"sup3rs3cr3t",
+		"pass":"p4$$w4rd"
 	}
 }
 ```
