@@ -1,4 +1,4 @@
-node-foscamhd [![Build Status](https://travis-ci.org/yamanote1138/node-foscamhd.png?branch=master)](https://travis-ci.org/yamanote1138/node-foscamhd)
+node-foscamhd [![Build Status](https://travis-ci.org/yamanote1138/foscamhd-client.png?branch=master)](https://travis-ci.org/yamanote1138/foscamhd-client)
 =============
 
 simple node client for Foscam HD cameras providing a few basic operations
