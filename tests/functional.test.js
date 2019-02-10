@@ -1,15 +1,17 @@
+'use strict';
+
 //requires
-var FoscamHdClient = require('../lib/FoscamHdClient.js'),
-	nconf = require('nconf'),
-	prompt = require('prompt');
+const FoscamHdClient = require('../lib/foscamHdClient.js');
+const	nconf = require('nconf'); // eslint-disable-line node/no-unpublished-require
+const prompt = require('prompt'); // eslint-disable-line node/no-unpublished-require
 
 //setup
-var config = nconf.file('./tests/config.json').get('testcamera'),
-	client = new FoscamHdClient(config);
+let config = nconf.file('./tests/config.json').get('testcamera');
+let client = new FoscamHdClient(config);
 
-var displayOutput = function(err, data){
+let displayOutput = function(err, data){
 	if(err) throw err;
-	console.log(data);
+	console.log(data); // eslint-disable-line
 };
 
 prompt.start();
