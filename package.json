@@ -8,7 +8,6 @@
     "url": "https://github.com/yamanote1138/foscamhd-client/issues"
   },
   "dependencies": {
-    "lodash": "^4.17.14",
     "request": "^2.88.0"
   },
   "description": "simple node client for Foscam HD cameras providing a few basic operations",
