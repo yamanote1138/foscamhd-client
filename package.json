@@ -8,15 +8,15 @@
     "url": "https://github.com/yamanote1138/foscamhd-client/issues"
   },
   "dependencies": {
-    "request": "^2.88.0"
+    "request": "^2.88.2"
   },
   "description": "simple node client for Foscam HD cameras providing a few basic operations",
   "devDependencies": {
-    "eslint": "^6.3.0",
+    "eslint": "^7.0.0",
     "eslint-config-strongloop": "^2.1.0",
-    "eslint-plugin-mocha": "^6.1.0",
-    "eslint-plugin-node": "^9.2.0",
-    "mocha": "^6.2.0",
+    "eslint-plugin-mocha": "^6.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "mocha": "^7.1.2",
     "nconf": "^0.10.0",
     "prompt": "^1.0.0"
   },
