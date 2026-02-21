@@ -1,4 +1,8 @@
-node-foscamhd [![Build Status](https://travis-ci.org/yamanote1138/foscamhd-client.png?branch=master)](https://travis-ci.org/yamanote1138/foscamhd-client)
+> [!WARNING]
+> **DEPRECATED — No longer maintained.**
+> This package is no longer actively developed or supported. No further updates, bug fixes, or security patches will be issued. It is kept available for reference and for anyone who may find the source code useful. Use at your own risk.
+
+node-foscamhd
 =============
 
 simple node client for Foscam HD cameras providing a few basic operations
