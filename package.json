@@ -16,7 +16,7 @@
     "eslint-config-strongloop": "^2.1.0",
     "eslint-plugin-mocha": "^6.3.0",
     "eslint-plugin-node": "^11.1.0",
-    "mocha": "^7.1.2",
+    "mocha": "^10.2.0",
     "nconf": "^0.10.0",
     "prompt": "^1.0.0"
   },
